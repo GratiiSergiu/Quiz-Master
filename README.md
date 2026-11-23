@@ -1,11 +1,2 @@
-<div align="center">
-
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+# QuizMaster
+QuizMaster Jeopardy este o aplicație SaaS completă, construită cu React, TypeScript și Tailwind CSS, care permite generarea automată de concursuri (prin AI sau import JSON) și gestionarea jocurilor interactive pe echipe. Aplicația include un flux structurat: Dashboard pentru creare, Setup pentru configurarea echipelor (2-10) și a timerului, Tabla J

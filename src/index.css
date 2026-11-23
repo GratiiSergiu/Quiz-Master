@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+html, body, #root {
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Range input styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: #334155;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6366f1;
+  cursor: pointer;
+  border: 2px solid #818cf8;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6366f1;
+  cursor: pointer;
+  border: 2px solid #818cf8;
+}
+
+/* Number input hide arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

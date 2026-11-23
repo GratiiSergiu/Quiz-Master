@@ -1,0 +1,8 @@
+{
+  "name": "QuizMaster Jeopardy",
+  "description": "Platformă interactivă de concursuri tip Jeopardy pe echipe cu generator AI",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
